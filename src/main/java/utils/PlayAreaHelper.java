@@ -15,7 +15,8 @@ public class PlayAreaHelper {
      */
     public static PlayArea getDefaultSquarePlayArea() {
         Map<Coordinates, Square> squareMap = new HashMap<>();
-        for(int y=0; y<5; y++) {
+        //reverse Y because we draw from bottom to top
+        for(int y=4; y>=0; y--) {
             for(int x=0; x<5; x++) {
                 Coordinates coordinates = new Coordinates(x, y);
                 squareMap.put(coordinates, new Square(coordinates));
