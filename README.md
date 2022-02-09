@@ -1,6 +1,6 @@
 ### How to run:
-You can check this out from github https://github.com/ChrisAnthony85/ToyRobotExercise.git then build it and run. A zip file
-will also be provided that can be launched using java.
+You can check this out from github https://github.com/ChrisAnthony85/ToyRobotExercise.git then build it and run. A jar file 
+will also be provided via Google drive link that can be launched using java -jar.
 
 ### How to use:
 The app will keep on asking for a new command <"WHAT IS YOUR COMMAND?"> after each previous command has been
